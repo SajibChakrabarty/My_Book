@@ -91,19 +91,16 @@ nav{
     padding: 13px 5%;
 }
 .left-sidebar{
-    /* background: #cbdffa; */
     flex-basis: 25%;
     position: sticky;
     top: 70px;
     align-self: flex-start;
 }
 .right-sidebar{
-    /* background: #cbdffa; */
     flex-basis: 25%;
     position: sticky;
     top: 70px;
     align-self: flex-start;
-    /* background: var(--bg-color); */
     padding: 20px;
     border-radius: 4px;
     color: #626262;
@@ -112,9 +109,6 @@ nav{
 /* ////////////Main Content///////// */
 .main-content{
     flex-basis: 47%;
-}
-.main-content p{
-    color: #fff;
 }
 .imp-links a, .shortcut-links a {
     text-decoration: none;
@@ -338,7 +332,7 @@ nav{
     color: #626262;
 }
 .post-text{
-    color: #9a9a9a;
+    color: #534545;
     margin: 15px 0;
     font-size: 15px;
 }
@@ -404,7 +398,6 @@ nav{
     position: absolute;
     width: 90%;
     max-width: 350px;
-    /* height: 500px; */
     background: var(--bg-color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     border-radius: 4px;
